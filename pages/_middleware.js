@@ -16,7 +16,7 @@ export async function middleware(req) {
   }
 
   //redirect them to login if they dont have token AND are request a protected reVVimportimportuser
-  if (!token && pathname !== "/login") {
-    return NextResponse.redirect("http://www.tune-in.site/login");
+  if (!token && pathname !== "https://www.tune-in.site/login") {
+    return NextResponse.redirect("/login");
   }
 }
