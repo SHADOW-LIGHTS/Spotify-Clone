@@ -79,7 +79,7 @@ function Player() {
       {/* left */}
       <div className="flex items-center space-x-4">
         <img
-          className="hidden md:inline h-10 w-10"
+          className="hidden md:inline h-15 w-15"
           src={songInfo?.album.images?.[0]?.url}
           alt=""
         />
